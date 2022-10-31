@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">💎CODASHOP</string>
+
+
+    <string name="this_activity">Ini adalah menu activity</string>
+    <string name="this_fragment">Ini adalah menu fragment</string>
+    <string name="search">Search</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+
+    <string name="search_hint">Masukkan kata</string>
+    <string name="game_name">Nama Game</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Mobile Legends</item>
+        <item>Free Fire</item>
+        <item>VALORANT</item>
+        <item>Genshin Impact</item>
+        <item>League of Legends: Wild Rift</item>
+        <item>Ragnarok X: Next Generation</item>
+        <item>APEX Legends Mobile</item>
+        <item>Call of Duty Mobile</item>
+        <item>Steam Wallet Code - Indonesia</item>
+    </string-array>
+    <string-array name="data_description">
+<item>Top up ML Diamond hanya dalam hitungan detik! Cukup masukan Username MLBB Anda, pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran, dan Diamond akan secara langsung ditambahkan ke akun Mobile Legends Anda.
+ </item>
+        <item>Beli Diamond Free Fire (FF) hanya dalam hitungan detik! Cukup masukkan Player ID Free Fire Kamu, pilih jumlah Diamond yang Kamu inginkan, selesaikan pembayaran, dan Diamond tersebut akan langsung masuk ke akun Free Fire Kamu.
+</item>
+        <item>Top up VALORANT Points hanya dalam hitungan detik! Cukup masukan ID Riot Anda, pilih jumlah Points yang Anda inginkan, selesaikan pembayaran, dan Poin akan secara langsung ditambahkan ke akun VALORANT Anda.
+</item>
+        <item>Top up Genesis Crystal Genshin Impact hanya dalam hitungan detik! Cukup masukan UID Genshin Impact Anda, pilih jumlah Genesis Crystals yang Anda inginkan, selesaikan pembayaran, dan Genesis Crystal akan secara langsung ditambahkan ke akun Genshin Impact Anda.
+</item>
+        <item>Top up LOL Wild Rift dalam hitungan detik! Cukup masukan Riot ID Anda, pilih jumlah Wild Core yang Anda inginkan, pilih metode pembayaran dan selesaikan transaksi Anda. Wild Core akan otomatis masuk ke akun League of Legends: Wild Rift Anda.
+</item>
+        <item>Top up Diamonds Ragnarok X: Next Generation hanya dalam hitungan detik! Cukup masukan User ID Ragnarok X: Next Generation Anda, pilih jumlah Diamonds yang Anda inginkan, selesaikan pembayaran, dan Diamonds akan secara langsung ditambahkan ke akun Ragnarok X: Next Generation Anda.
+</item>
+        <item>Cukup masukan ID Apex Legends Mobile Anda, pilih top up Apex Legends Mobile yang Anda inginkan, selesaikan pembayaran, dan top up akan secara langsung ditambahkan ke akun Apex Legends Mobile Anda.
+</item>
+        <item>Top up CP CODM hanya dalam hitungan detik! Cukup masukan User ID COD Mobile Anda, pilih jumlah CP yang Anda inginkan, selesaikan pembayaran, dan CP CODM akan secara instan ditambahkan ke akun CODM Anda.
+</item>
+        <item>Beli Steam Wallet Codes atau Steam Gift Card hanya dalam hitungan detik! Cukup masukan jumlah saldo Steam Wallet yang Anda inginkan, pilih metode pembayaran dan selesaikan transaksi Anda. Kemudian Anda akan mendapatkan kode Steam Wallet pada pesan konfirmasi pembayaran via email.
+</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/mobile_legend</item>
+        <item>@drawable/free_fire</item>
+        <item>@drawable/valorant</item>
+        <item>@drawable/gensin</item>
+        <item>@drawable/legends_wildrift</item>
+        <item>@drawable/ragnarok</item>
+        <item>@drawable/apex</item>
+        <item>@drawable/cod_mobile</item>
+        <item>@drawable/steam</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shoppingbag">ini adalah fragment shopping bag</string>
+    <string name="hello_ini_shopping_bag">shoppingbag</string>
+    <string name="notification">notification</string>
+
+
+</resources>
