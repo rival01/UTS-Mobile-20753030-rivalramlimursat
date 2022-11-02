@@ -7,17 +7,20 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/apkk"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/apkk"
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDrawer"
         tools:targetApi="31">
         <activity
-            android:name="com.val.game.MenuActivity"
+            android:name=".HalamanGame"
             android:exported="false" />
         <activity
-            android:name="com.val.game.MainActivity"
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

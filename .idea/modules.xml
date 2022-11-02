@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NavigationDrawer.iml" filepath="$PROJECT_DIR$/.idea/modules/NavigationDrawer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NavigationDrawer.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CodaShop.iml" filepath="$PROJECT_DIR$/.idea/modules/CodaShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CodaShop.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CodaShop.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CodaShop.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CodaShop.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CodaShop.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CodaShop.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CodaShop.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CodaShop.app.unitTest.iml" />
     </modules>
   </component>
 </project>

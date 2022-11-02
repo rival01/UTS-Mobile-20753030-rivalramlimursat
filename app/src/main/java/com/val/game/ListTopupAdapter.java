@@ -18,9 +18,15 @@ import java.util.ArrayList;
 public class ListTopupAdapter extends RecyclerView.Adapter<ListTopupAdapter.ListViewHolder> {
 
     private ArrayList<Topup> game;
+    public ItemClickListener itemClickListener;
 
-    public ListTopupAdapter(ArrayList<Topup> list) {
+    public interface ItemClickListener {
+        void selectedItem(Topup Game);
+    }
+
+    public ListTopupAdapter(ArrayList<Topup> list, ItemClickListener itemClickListener) {
         this.game = list;
+        this.itemClickListener = itemClickListener;
     }
 
     @NonNull
@@ -37,10 +43,17 @@ public class ListTopupAdapter extends RecyclerView.Adapter<ListTopupAdapter.List
         holder.tvName.setText(Game.getName());
         holder.tvDescription.setText(Game.getDescription());
 
-        holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(holder.itemView.getContext(), "Kamu memilih "
-                            + game.get(holder.getAdapterPosition()).getName(),
-                    Toast.LENGTH_SHORT).show();
+//        holder.itemView.setOnClickListener(v -> {
+//            Toast.makeText(holder.itemView.getContext(), "Kamu memilih "
+//                            + game.get(holder.getAdapterPosition()).getName(),
+//                    Toast.LENGTH_SHORT).show();
+//        });
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                itemClickListener.selectedItem(Game);
+            }
         });
     }
 

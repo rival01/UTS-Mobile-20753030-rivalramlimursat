@@ -58,6 +58,8 @@
     <string name="shoppingbag">ini adalah fragment shopping bag</string>
     <string name="hello_ini_shopping_bag">shoppingbag</string>
     <string name="notification">notification</string>
+    <string name="judul">Mobile Legend</string>
+    <string name="content_text">Top up ML Diamond hanya dalam hitungan detik! Cukup masukan Username MLBB Anda, pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran, dan Diamond akan secara langsung ditambahkan ke akun Mobile Legends Anda.</string>
 
 
 </resources>

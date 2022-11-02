@@ -1,5 +1,6 @@
 package com.val.game;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 
@@ -18,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements ListTopupAdapter.ItemClickListener{
     private RecyclerView rvGame;
     private ArrayList<Topup> list = new ArrayList<>();
 
@@ -58,7 +59,7 @@ public class HomeFragment extends Fragment {
 
     private void showRecyclerList() {
         rvGame.setLayoutManager(new LinearLayoutManager(getContext()));
-        ListTopupAdapter listTopupAdapter = new ListTopupAdapter(list);
+        ListTopupAdapter listTopupAdapter = new ListTopupAdapter(list, this::selectedItem);
         rvGame.setAdapter(listTopupAdapter);
     }
 
@@ -67,4 +68,8 @@ public class HomeFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
+    @Override
+    public void selectedItem(Topup Game) {
+        startActivity(new Intent(getContext(), HalamanGame.class).putExtra("data", Game));
+    }
 }
